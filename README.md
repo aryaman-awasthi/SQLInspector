@@ -72,10 +72,13 @@ Every SQL query made by the application is recorded. SQLInspector allows you to 
 
 3. Access the terminal or the provided interface to view the generated SQL queries. -->
 
-## Contributors:
+## Contributor:
 
 ### Aryaman Awasthi
 
 - **GitHub:** [aryaman-awasthi](https://github.com/aryaman-awasthi)
 - **LinkedIn:** [Aryaman Awasthi](https://www.linkedin.com/in/aryaman-awasthi/)
 
+## Visitor Count
+
+![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=aryaman-awasthi.SQLInspector)
