@@ -29,7 +29,7 @@ Every SQL query made by the application is recorded. SQLInspector allows you to 
 1. **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/your_username/SQLInspector.git
+    git clone https://github.com/aryaman-awasthi/SQLInspector.git
     cd SQLInspector
     ```
 
@@ -72,4 +72,10 @@ Every SQL query made by the application is recorded. SQLInspector allows you to 
 
 3. Access the terminal or the provided interface to view the generated SQL queries. -->
 
+## Contributors:
+
+### Aryaman Awasthi
+
+- **GitHub:** [aryaman-awasthi](https://github.com/aryaman-awasthi)
+- **LinkedIn:** [Aryaman Awasthi](https://www.linkedin.com/in/aryaman-awasthi/)
 
