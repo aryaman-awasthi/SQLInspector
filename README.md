@@ -5,11 +5,8 @@ SQLInspector is a Django project designed to monitor and inspect SQL queries gen
 ## Why use SQLInspector?
 
 - **Performance:** To ensure that you're using the most performant and efficient ways of fetching data.
-  
 - **Multiple Models and Relationships:** As your application grows and integrates more complex models and relationships, ensuring that your queries remain optimized becomes crucial.
-  
 - **Beyond Django ORM:** If your application outgrows the Django ORM, or you find a need to write raw SQL queries, understanding the auto-generated SQL can serve as a helpful guide.
-  
 - **Diagnostic Tool:** It helps in diagnosing non-performant SQL queries and provides insights into potential optimizations.
 
 ## How it Works?
@@ -28,41 +25,41 @@ Every SQL query made by the application is recorded. SQLInspector allows you to 
 
 1. **Clone the Repository:**
 
-    ```bash
-    git clone https://github.com/aryaman-awasthi/SQLInspector.git
-    cd SQLInspector
-    ```
+   ```bash
+   git clone https://github.com/aryaman-awasthi/SQLInspector.git
+   cd SQLInspector
+   ```
 
 2. **Set Up a Virtual Environment (Recommended):**
 
-    ```bash
-    python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
-    ```
+   ```bash
+   python -m venv env
+   source env/bin/activate  # On Windows use `env\Scripts\activate`
+   ```
 
 3. **Install Dependencies:**
 
-    Make sure you're in the project directory and then run:
+   Make sure you're in the project directory and then run:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 4. **Run Migrations (If Required):**
 
-    Ensure that the database models are in sync with the database schema:
+   Ensure that the database models are in sync with the database schema:
 
-    ```bash
-    python manage.py migrate
-    ```
+   ```bash
+   python manage.py migrate
+   ```
 
 5. **Run the Server:**
 
-    ```bash
-    python manage.py runserver
-    ```
+   ```bash
+   python manage.py runserver
+   ```
 
-    This will start the development server on `http://127.0.0.1:8000/`. Visit this URL in your browser to start using SQLInspector.
+   This will start the development server on `http://127.0.0.1:8000/`. Visit this URL in your browser to start using SQLInspector.
 
 <!-- ## Usage:
 
@@ -78,7 +75,3 @@ Every SQL query made by the application is recorded. SQLInspector allows you to 
 
 - **GitHub:** [aryaman-awasthi](https://github.com/aryaman-awasthi)
 - **LinkedIn:** [Aryaman Awasthi](https://www.linkedin.com/in/aryaman-awasthi/)
-
-## Visitor Count
-
-![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=aryaman-awasthi/SQLInspector#sqlinspector)
