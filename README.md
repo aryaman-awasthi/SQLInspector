@@ -81,4 +81,4 @@ Every SQL query made by the application is recorded. SQLInspector allows you to 
 
 ## Visitor Count
 
-![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=aryaman-awasthi.SQLInspector)
+![Visitor Count](https://visitor-badge.glitch.me/badge?page_id=aryaman-awasthi/SQLInspector#sqlinspector)
