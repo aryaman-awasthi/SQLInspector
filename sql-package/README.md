@@ -1,6 +1,6 @@
 # SQLInspector Middleware for Django
 
-[![Version](https://img.shields.io/badge/version-1.0.0.3-brightgreen)](https://pypi.org/project/sqlinspector/)
+[![Version](https://img.shields.io/badge/version-0.5-brightgreen)](https://pypi.org/project/sqlinspector/)
 
 ## Description
 
@@ -31,11 +31,11 @@ To install the SQLInspector middleware via pip, use:
 pip install -i https://test.pypi.org/simple/ sql-inspector
 ```
 
-# How to Use
+## How to Use
 
 Integrating SQLInspector into your Django project is straightforward. Once you've installed the middleware, the next steps ensure its proper functioning:
 
-## Integration Steps:
+### Integration Steps:
 
 1. **Add to MIDDLEWARE in settings.py:**
 
