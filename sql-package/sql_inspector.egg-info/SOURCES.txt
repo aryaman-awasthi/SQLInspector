@@ -1,8 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-sql_inspector.egg-info/PKG-INFO
-sql_inspector.egg-info/SOURCES.txt
-sql_inspector.egg-info/dependency_links.txt
-sql_inspector.egg-info/requires.txt
-sql_inspector.egg-info/top_level.txt
