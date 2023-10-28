@@ -29,3 +29,32 @@ To install the SQLInspector middleware via pip, use:
 
 ```bash
 pip install -i https://test.pypi.org/simple/ sql-inspector
+```
+
+# How to Use
+
+Integrating SQLInspector into your Django project is straightforward. Once you've installed the middleware, the next steps ensure its proper functioning:
+
+## Integration Steps:
+
+1. **Add to MIDDLEWARE in settings.py:**
+
+    After you have installed the SQLInspector via pip, you need to add it to your Django application's `MIDDLEWARE` settings. 
+
+    Open your `settings.py` file and locate the `MIDDLEWARE` section. Add the following line:
+
+    ```python
+    'sql-inspector.middleware.querychecker_middleware',
+    ```
+
+    Ensure you add it in the appropriate order. For instance, if you have other middleware that processes database queries, you might want to adjust the order to ensure SQLInspector captures the raw queries before any other processing takes place.
+
+2. **Monitor Your Queries:**
+
+    With SQLInspector now integrated, you can monitor, analyze, and optimize your SQL queries in real-time as your application runs.
+
+Remember, SQLInspector doesn't just capture the queries; it provides valuable insights into their performance and efficiency. By understanding the underlying SQL, you can make the necessary adjustments to your Django ORM operations, ensuring optimal database interactions.
+
+Happy optimizing!
+
+
