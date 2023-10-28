@@ -1,2 +1,0 @@
-Pygments>=2.16.1
-sqlparse>=0.4.4
