@@ -57,4 +57,10 @@ Remember, SQLInspector doesn't just capture the queries; it provides valuable in
 
 Happy optimizing!
 
+## Contributor:
+
+### Aryaman Awasthi
+
+- **GitHub:** [aryaman-awasthi](https://github.com/aryaman-awasthi)
+- **LinkedIn:** [Aryaman Awasthi](https://www.linkedin.com/in/aryaman-awasthi/)
 
