@@ -14,7 +14,7 @@ def test_demo(client, settings, capsys):
       captured = capsys.readouterr()
       sys.stdout.write(captured.out)
 
-      assert "1 Toal Queries" in captured.out
+      assert "1 Total Queries" in captured.out
 
       assert response.status_code == 200
 
