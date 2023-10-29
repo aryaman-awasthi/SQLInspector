@@ -24,7 +24,7 @@ def querychecker_middleware(get_response):
 
             print("==============================")
             print("[SQL Stats]")
-            print(f"{num_queries} Toal Queries") 
+            print(f"{num_queries} Total Queries") 
             print(f"{num_queries - len(check_duplicates)} Total duplicates")
             print(f"{total_exec_time}s Toal Execution time")
             print("==============================")
